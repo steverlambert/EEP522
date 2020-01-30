@@ -1,0 +1,134 @@
+
+##############################################
+
+Whetstone Single Precision C Benchmark  vfpv4 32 Bit, Wed Jan 29 17:46:12 2020
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156       521.928               0.075
+N2 floating point      -1.12274742126464844       530.364               0.514
+N3 if then else         1.00000000000000000               293313952.000     0.000
+N4 fixed point         12.00000000000000000                2496.608     0.256
+N5 sin,cos etc.         0.49911010265350342                  55.132     3.059
+N6 floating point       0.99999982118606567       385.344               2.837
+N7 assignments          3.00000000000000000                 998.044     0.375
+N8 exp,sqrt etc.        0.75110864639282227                  26.174     2.881
+
+MWIPS                                            2027.713               9.996
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 270.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd08
+CPU revision	: 3
+
+processor	: 1
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 270.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd08
+CPU revision	: 3
+
+processor	: 2
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 270.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd08
+CPU revision	: 3
+
+processor	: 3
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 270.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CLinux version 4.19.93-v7l+ (dom@buildbot) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1290 SMP Fri Jan 10 16:45:11 GMT 2020
+ 
+
+From File /proc/version
+Linux version 4.19.93-v7l+ (dom@buildbot) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1290 SMP Fri Jan 10 16:45:11 GMT 2020
+ 
+
+Additional information - 
+
+
+##############################################
+
+Whetstone Single Precision C Benchmark  vfpv4 32 Bit, Wed Jan 29 17:53:10 2020
+
+
+Loop content                   Result              MFLOPS      MOPS   Seconds
+
+N1 floating point      -1.12475013732910156       523.373               0.074
+N2 floating point      -1.12274742126464844       531.346               0.512
+N3 if then else         1.00000000000000000               293169280.000     0.000
+N4 fixed point         12.00000000000000000                2495.200     0.256
+N5 sin,cos etc.         0.49911010265350342                  55.108     3.059
+N6 floating point       0.99999982118606567       385.400               2.836
+N7 assignments          3.00000000000000000                 998.807     0.375
+N8 exp,sqrt etc.        0.75110864639282227                  26.166     2.880
+
+MWIPS                                            2027.605               9.992
+
+SYSTEM INFORMATION
+
+From File /proc/cpuinfo
+processor	: 0
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 108.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd08
+CPU revision	: 3
+
+processor	: 1
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 108.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd08
+CPU revision	: 3
+
+processor	: 2
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 108.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xd08
+CPU revision	: 3
+
+processor	: 3
+model name	: ARMv7 Processor rev 3 (v7l)
+BogoMIPS	: 108.00
+Features	: half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32 
+CPU implementer	: 0x41
+CPU architecture: 7
+CLinux version 4.19.93-v7l+ (dom@buildbot) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1290 SMP Fri Jan 10 16:45:11 GMT 2020
+ 
+
+From File /proc/version
+Linux version 4.19.93-v7l+ (dom@buildbot) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1290 SMP Fri Jan 10 16:45:11 GMT 2020
+ 
+
+Additional information - 
+
